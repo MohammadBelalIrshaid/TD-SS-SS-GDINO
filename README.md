@@ -58,5 +58,5 @@ The pipeline addresses the challenge of limited labeled data by progressively re
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. **Install PyTorch (with CUDA support):**
    ```bash
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+    pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 
