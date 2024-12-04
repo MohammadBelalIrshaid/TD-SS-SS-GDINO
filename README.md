@@ -34,8 +34,29 @@ The pipeline addresses the challenge of limited labeled data by progressively re
   - Achieved **Average Precision (AP)** of 0.83 at 0.5 IoU with 1000 proposals.
   - Best recall of **0.727** with large area proposals.
 
-## Usage
-1. Clone the repository:
+---
+
+## System Requirements
+- **Operating System**: Linux or Windows (64-bit)
+- **Python Version**: 3.8 or higher
+- **GPU**: NVIDIA GPU with CUDA 11.3+ (for optimal performance)
+- **RAM**: At least 16 GB (recommended)
+- **Disk Space**: At least 20 GB for datasets and model weights
+
+---
+
+## Installation
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/threat-detection-xray.git
    cd threat-detection-xray
+
+2. **Set up a virtual environment**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. **Install PyTorch (with CUDA support):**
+   ```bash
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
